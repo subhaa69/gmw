@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Health & Community App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌸 Women's Health & Community</h1>
+        <nav>
+            <a href="#tracker">Health Tracker</a>
+            <a href="#community">Community</a>
+            <a href="#resources">Resources</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Health Tracker Section -->
+        <section id="tracker">
+            <h2>Daily Health Tracker</h2>
+            <form id="tracker-form">
+                <label>Mood:
+                    <input type="text" id="mood" required>
+                </label>
+                <label>Symptom/Note:
+                    <input type="text" id="note">
+                </label>
+                <button type="submit">Log</button>
+            </form>
+            <ul id="tracker-list"></ul>
+        </section>
+
+        <!-- Community Section -->
+        <section id="community">
+            <h2>Community Support Board</h2>
+            <form id="post-form">
+                <label>Your Message:
+                    <input type="text" id="message" required>
+                </label>
+                <button type="submit">Post</button>
+            </form>
+            <ul id="posts-list"></ul>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources">
+            <h2>Helpful Resources</h2>
+            <ul>
+                <li><a href="https://www.womenshealth.gov/" target="_blank">Women's Health.gov</a></li>
+                <li><a href="https://www.girlshealth.gov/" target="_blank">GirlsHealth.gov</a></li>
+                <li><a href="https://www.womenhelp.org/" target="_blank">Women Help</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Created by [Your Name]</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
